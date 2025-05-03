@@ -111,8 +111,8 @@ def process_all_clusters(base_dir, node_output_file, cluster_output_file):
     """
     Process all nodes_info.txt and cluster_info.txt files across multiple cluster directories
     """
-    # Find all cluster directories
-    cluster_dirs = glob.glob(os.path.join(base_dir, "cluster*"))
+    # Find all directories under the base directory (not just those starting with "cluster")
+    cluster_dirs = [d for d in glob.glob(os.path.join(base_dir, "*")) if os.path.isdir(d)]
     
     # Initialize empty DataFrames to store all data
     all_node_data = pd.DataFrame()
