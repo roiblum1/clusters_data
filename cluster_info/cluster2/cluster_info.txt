@@ -1,0 +1,3 @@
+Total nodes: 15
+Pods available: 450
+Node in max pods: 2

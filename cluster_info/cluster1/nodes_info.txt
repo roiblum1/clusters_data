@@ -1,0 +1,29 @@
+Node name: node-bravo-6
+Server model: HP ProLiant DL380 Gen10
+CPU cores: 8
+Total RAM: 128G
+GPU type: No GPU found
+
+Node name: node-alpha-80
+Server model: Supermicro SYS-1029U
+CPU cores: 4
+Total RAM: 64G
+GPU type: NVIDIA GeForce RTX 3080
+
+Node name: node-bravo-31
+Server model: Supermicro SYS-1029U
+CPU cores: 4
+Total RAM: 64G
+GPU type: NVIDIA GeForce RTX 3080
+
+Node name: node-delta-61
+Server model: Lenovo ThinkSystem SR650
+CPU cores: 8
+Total RAM: 32G
+GPU type: AMD Radeon RX 6800
+
+Node name: node-alpha-55
+Server model: Lenovo ThinkSystem SR650
+CPU cores: 8
+Total RAM: 128G
+GPU type: AMD Radeon RX 6800
